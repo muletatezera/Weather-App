@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image:
+    linear-gradient(
+      to bottom,
+      rgba(110, 118, 124, 1),
+      rgba(3, 240, 252, 0.4),
+      rgb(23, 163, 42, 0.4)
+    ),
+    url(../weather.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+h1 {
+  /* background-color: rgb(202, 177, 146, 0.5); */
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.app {
+  background: linear-gradient(
+    rgb(52, 52, 226, 0.5),
+    rgb(249, 236, 236, 0.1),
+    rgb(187, 90, 90, 0.1),
+    rgba(69, 177, 69, 0.5)
+  );
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 300px;
+  /* border: 5px solid; */
+
+  /* border-color: rgb(6, 6, 248) chartreuse orangered deeppink; */
+}
+
+input {
+  padding: 10px;
+  width: 70%;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+button {
+  padding: 10px;
+  cursor: pointer;
+  background-color: darkgoldenrod;
+  color: white;
+  font-size: 15px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+button:hover {
+  background-color: hsl(43, 89%, 50%);
+  transition: 0.5s;
+}
