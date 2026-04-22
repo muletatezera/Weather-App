@@ -10,6 +10,7 @@ body {
     url(../weather.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 
   display: flex;
   justify-content: center;
@@ -19,7 +20,7 @@ body {
 }
 h1 {
   /* background-color: rgb(202, 177, 146, 0.5); */
-  color: white;
+  color: rgb(44, 37, 37);
   font-weight: bold;
   border-radius: 10px;
 }
